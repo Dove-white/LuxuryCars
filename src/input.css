@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pl-sing-in {
+    padding-left: 1.75rem;
+}
+
+.bg-ash {
+    background-color: #C4C4C4;
+}
+
+.h-focus::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 2px;
+  width: 100%;
+  border-radius: 3px;
+  background: #F1BC00;
+  transform: scaleX(1);
+}
+
+.big-ash {
+  border-radius: 70% 100% 70% 100%;
+  background-color: #CBC9C28F;
+}
+
+.big-yellow {
+  border-radius: 70% 100% 70% 100%;
+  background-color: #F1BC008F;
+}
+
+.small-r {
+  bottom: 2;
+  background-color: white;
+  border-radius: 40% 100% 40% 100%;
+}
+
+.ash-trans {
+  transform: rotate(156.39deg);
+}
+
+.yellow-trans {
+  transform: rotate(-12.107deg);
+}
