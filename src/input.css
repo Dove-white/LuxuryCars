@@ -13,3 +13,23 @@
   background: #F1BC00;
   transform: scaleX(1);
 }
+
+.s-focus::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  bottom: -1px;
+  height: 2px;
+  width: 60%;
+  border-radius: 3px;
+  background: #F1BC00;
+  transform: scaleX(1);
+}
+
+button,.sub {
+  transition: .5s ease;
+}
+
+button:hover,.sub:hover {
+  background-color: #3157ba;
+}
