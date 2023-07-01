@@ -8,7 +8,7 @@ module.exports = {
       'md': '908px',
       'phone': '909px',
       'xl': '1200px',
-      'max-sm': '420px',
+      'phone-s': '400px',
     },
   },
   plugins: [],

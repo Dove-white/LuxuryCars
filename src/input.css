@@ -33,3 +33,9 @@ button,.sub {
 button:hover,.sub:hover {
   background-color: #3157ba;
 }
+
+@media (max-width: 400px) {
+  .img-form {
+    height: 30px;
+  }
+}
